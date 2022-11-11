@@ -38,6 +38,9 @@
         html {
             scroll-behavior: smooth;
         }
+        h4, h5 {
+            font-weight: bold;
+        }
         @media only screen and (min-width: 900px) {
             .container {
                 padding: 0 100px !important;

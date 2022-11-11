@@ -14,4 +14,13 @@ class PageController extends Controller
 
         return view('pages.public.privacy', $this->data);
     }
+
+    public function terms()
+    {
+        app()->setLocale('en');
+        $this->data['title'] = 'Mooti App | Terms Of Use';
+        $this->data['lang'] = 'en';
+
+        return view('pages.public.term', $this->data);
+    }
 }
