@@ -9,8 +9,8 @@
             <div>160 Robinson Road #14-04</div>
             <div>SBF Center</div>
             <div>Singapore 068914</div>
-            <div>Email : contact@nftdaily.app</div>
-            <div>Website : https://www.nftdaily.app</div>
+            <div>Email : contact@mooti.app</div>
+            <div>Website : https://www.mooti.app</div>
         </div>
     </div>
 </div>

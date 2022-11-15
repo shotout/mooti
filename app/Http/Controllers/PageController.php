@@ -23,4 +23,13 @@ class PageController extends Controller
 
         return view('pages.public.term', $this->data);
     }
+
+    public function contact()
+    {
+        app()->setLocale('en');
+        $this->data['title'] = 'Mooti App | Contact Us';
+        $this->data['lang'] = 'en';
+
+        return view('pages.public.contact', $this->data);
+    }
 }
