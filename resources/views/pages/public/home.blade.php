@@ -10,7 +10,7 @@
 
         <meta name="title" content="NFT Daily App">
         <meta name="author" content="NFT Daily">
-        <meta name="description" content="NFT, NFT Daily, NFT Daily App, Blockchain, wallet, opensea, collection">
+        <meta name="description" content="Mooti, Mooti Quotes, NFT Daily App, Motivastion, Life Style">
 
         <meta name="robots" content="index, follow">
         <meta name="googlebot" content="index, follow">
