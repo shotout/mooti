@@ -21,4 +21,3 @@ Route::get('/', function () {
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-Route::get('/app-ads.txt', [PageController::class, 'ads'])->name('ads');
