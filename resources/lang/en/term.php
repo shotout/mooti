@@ -15,7 +15,7 @@ return [
             <div>Singapore 068914</div>
 
             <p class="mt-3">
-                The terms "user" or "you" refer to the user of the Services. By using or accessing our Services you accept these Terms & Conditions. Your use of our Services is subject to the Mooti Privacy Policy, which is an integral part of these Terms & Conditions and is available at https://mooti.app privacy-policy
+                The terms "user" or "you" refer to the user of the Services. By using or accessing our Services you accept these Terms & Conditions. Your use of our Services is subject to the Mooti Privacy Policy, which is an integral part of these Terms & Conditions and is available at https://mooti.app/privacy
             </p>
 
             <h5 class="mt-4">MOOTI APP</h5>
@@ -44,7 +44,7 @@ return [
 
             <h5 class="mt-4">Minimum Age</h5>
             <p>
-                Mooti is not directed to individuals under the age of sixteen (16). To use the App, you agree that you must be 16 or older. However, if law requires that you must be older in order for Mooti to lawfully provide the Services to you without parental consent (including using of your personal data) then you must acquire this minimum age.
+            We do not use the Application to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at contact@mooti.app
             </p>
 
             <h5 class="mt-4">Using the App</h5>
