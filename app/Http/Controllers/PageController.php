@@ -6,6 +6,15 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+    public function index()
+    {
+        app()->setLocale('en');
+        $this->data['title'] = 'Mooti App | Home';
+        $this->data['lang'] = 'en';
+
+        return view('pages.public.home', $this->data);
+    }
+
     public function privacy()
     {
         app()->setLocale('en');
