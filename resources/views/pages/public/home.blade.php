@@ -76,7 +76,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 mb-2 c-right">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                 <img class="c-image" src="{{url('/assets/images/apple.svg')}}" alt="apple store logo">
             </a>
         </div>

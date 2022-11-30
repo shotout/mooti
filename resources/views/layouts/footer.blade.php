@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 c-footer-left">
-                <a style="color: #fff;" href="{{url('/privacy')}}">Terms and privacy policy</a>
+                <a class="mr-3" style="color: #fff;" href="{{url('/terms')}}">Terms of Use</a>
+                <a style="color: #fff;" href="{{url('/privacy')}}">Privacy Policy</a>
             </div>
             <div class="col-md-6 c-footer-right">
                 <a href="https://instagram.com/mooti.app" target="_blank" rel="noopener noreferrer">
