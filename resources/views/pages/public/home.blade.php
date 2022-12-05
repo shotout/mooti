@@ -68,7 +68,7 @@
 
 @section('main')
 <div class="container c-container">
-    <div class="row mt-4">
+    <div class="row">
         <div class="col-lg-12 text-center">
             <img src="{{url('/assets/images/logo.png')}}" alt="mooti app logo" width="80">
         </div>
