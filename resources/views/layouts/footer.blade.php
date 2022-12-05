@@ -1,6 +1,6 @@
 <footer class="footer">
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row px-4">
             <div class="col-md-6 c-footer-left">
                 <a class="mr-3" style="color: #fff;" href="{{url('/terms')}}">Terms of Use</a>
                 <a style="color: #fff;" href="{{url('/privacy')}}">Privacy Policy</a>

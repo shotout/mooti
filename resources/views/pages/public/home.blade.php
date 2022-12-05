@@ -5,6 +5,13 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yeseva+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+        .c-container {
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            justify-content: center;
+        }
+
         .box {
             margin-top: -10px;
             position: relative;
@@ -60,7 +67,7 @@
 @endpush
 
 @section('main')
-<div class="container">
+<div class="container c-container">
     <div class="row mt-4">
         <div class="col-lg-12 text-center">
             <img src="{{url('/assets/images/logo.png')}}" alt="mooti app logo" width="80">
