@@ -9,7 +9,7 @@
                 <a href="https://instagram.com/mooti.app" target="_blank" style="text-decoration: none;" >
                     <img class="mr-2" src="{{url('/assets/images/instagram.png')}}" alt="instagram logo">
                 </a>
-                <a href="fb://MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <a href="https://facebook.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                     <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
                 </a>
                 <a href="https://twitter.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
