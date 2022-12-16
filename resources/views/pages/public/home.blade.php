@@ -4,6 +4,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yeseva+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
         .c-container {
             display: flex;
@@ -43,6 +44,23 @@
         .c-footer-left, .c-footer-right {
             text-align: center;
         }
+        .c-footer-right {
+            margin-top: 5px;
+        }
+
+        .c-cimg {
+            width: 70%;
+        }
+
+        .f-inter {
+            font-family: 'Inter', sans-serif;
+        }
+        .c-dmobile {
+            display: block;
+        }
+        .c-hmobile {
+            display: none;
+        }
 
         @media only screen and (min-width: 768px) {
             .box {
@@ -53,8 +71,22 @@
                 text-align: right !important;
             }
 
+            .c-footer-right {
+                margin-top: 0 !important;
+            }
+
             .c-left, .c-footer-left {
                 text-align: left !important;
+            }
+
+            .c-cimg {
+                width: 339px !important;
+            }
+            .c-dmobile {
+                display: none !important;
+            }
+            .c-hmobile {
+                display: inline !important;
             }
         }
 
@@ -75,7 +107,7 @@
     </div>
     <div class="row py-4">
         <div class="col-lg-12 text-center">
-            <img src="{{url('/assets/images/banner.png')}}" alt="mooti app banner">
+            <img class="c-cimg" src="{{url('/assets/images/banner.png')}}" alt="mooti app banner">
             <div class="box">
                 <h4 class="box_title">This site is under construction</h4>
             </div>
