@@ -10,7 +10,7 @@
 
     <meta name="title" content="Mooti App">
     <meta name="author" content="Mooti App">
-    <meta name="description" content="Mooti App, Blockchain, wallet, opensea, collection">
+    <meta name="description" content="Motivation App for your daily affirmations. Download now on iOS and Android.">
 
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
