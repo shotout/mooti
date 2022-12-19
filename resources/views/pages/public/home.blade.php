@@ -62,6 +62,10 @@
             display: none;
         }
 
+        .c-margin {
+            margin-top: -15%;
+        }
+
         @media only screen and (min-width: 768px) {
             .box {
                 padding: 0 20%;
@@ -88,6 +92,10 @@
             .c-hmobile {
                 display: inline !important;
             }
+
+            .c-margin {
+                margin-top: 0 !important;
+            }
         }
 
         @media only screen and (max-width: 768px) {
@@ -100,7 +108,7 @@
 
 @section('main')
 <div class="container c-container">
-    <div class="row">
+    <div class="row c-margin">
         <div class="col-lg-12 text-center">
             <img src="{{url('/assets/images/logo.png')}}" alt="mooti app logo" width="80">
         </div>
