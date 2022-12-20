@@ -32,18 +32,53 @@
     >
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yeseva+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
         body {
             font-family: 'Nunito', sans-serif;
         }
         html {
             scroll-behavior: smooth;
         }
-        h4, h5 {
-            font-weight: bold;
+
+        .footer {
+            background-color: #00C2CB;
+            color: #fff;
+            padding: 10px 0;
+            font-family: 'Montserrat', sans-serif;
         }
-        @media only screen and (min-width: 900px) {
-            .container {
-                padding: 0 100px !important;
+
+        .c-footer-left, .c-footer-right {
+            text-align: center;
+        }
+        .c-footer-right {
+            margin-top: 5px;
+        }
+        .f-inter {
+            font-family: 'Inter', sans-serif;
+        }
+        .c-dmobile {
+            display: block;
+        }
+        .c-hmobile {
+            display: none;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .c-footer-right {
+                text-align: right !important;
+                margin-top: 0 !important;
+            }
+            .c-footer-left {
+                text-align: left !important;
+            }
+            .c-dmobile {
+                display: none !important;
+            }
+            .c-hmobile {
+                display: inline !important;
             }
         }
     </style>
