@@ -40,10 +40,10 @@
 <div>
     <div class="container-fluid">
         <div class="row py-3">
-            <div class="col-lg-6 c-text-center">
+            <div class="col-md-4 c-text-center">
                 <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
             </div>
-            <div class="col-lg-6 d-flex align-items-center justify-content-end">
+            <div class="col-md-8 d-flex align-items-center justify-content-end">
                 <div class="c-hmobile c-border p-2">
                     <span class="f-inter">Available on : </span>
                     <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
