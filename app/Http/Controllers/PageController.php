@@ -12,6 +12,15 @@ class PageController extends Controller
         $this->data['title'] = 'Mooti App | Home';
         $this->data['lang'] = 'en';
 
+        return view('pages.public.under', $this->data);
+    }
+
+    public function home()
+    {
+        app()->setLocale('en');
+        $this->data['title'] = 'Mooti App | Home';
+        $this->data['lang'] = 'en';
+
         return view('pages.public.home', $this->data);
     }
 
