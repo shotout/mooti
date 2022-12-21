@@ -203,7 +203,7 @@
             </div>
         </div>
 
-        <div class="row mt-3 pt-4 c-bg-skyblue">
+        <div class="row pt-4 c-bg-skyblue">
             <div class="col-12">
                 <div id="mooti-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
