@@ -31,7 +31,7 @@
             background-color: #00C2CB;
             color: #fff;
             bottom: 0;
-            position: absolute;
+            position: fixed;
             width: 100%;
             padding: 10px 0;
             font-family: 'Montserrat', sans-serif;
