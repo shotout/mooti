@@ -41,7 +41,7 @@
 
     <style>
         .carousel-indicators {
-            top: 230px;
+            top: 250px;
         }
 
         .carousel-indicators li {
@@ -213,7 +213,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div style="margin-bottom: 70px;">
+                            <div style="margin-bottom: 90px;">
                                 <img src="{{url('/assets/images/mooti1.png')}}" class="d-block c-width" alt="Mooti App Image">
                             </div>
                             <div>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div style="margin-bottom: 50px;">
+                            <div style="margin-bottom: 70px;">
                                 <img src="{{url('/assets/images/mooti2.png')}}" class="d-block c-width" alt="Mooti App Image">
                             </div>
                             <div>
@@ -248,7 +248,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div style="margin-bottom: 80px;">
+                            <div style="margin-bottom: 100px;">
                                 <img src="{{url('/assets/images/mooti3.png')}}" class="d-block c-width" alt="Mooti App Image">
                             </div>
                             <div>
