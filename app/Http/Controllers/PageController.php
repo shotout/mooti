@@ -9,7 +9,7 @@ class PageController extends Controller
     public function index()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | Home';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes';
         $this->data['lang'] = 'en';
 
         return view('pages.public.under', $this->data);
@@ -18,7 +18,7 @@ class PageController extends Controller
     public function home()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | Home';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes';
         $this->data['lang'] = 'en';
 
         return view('pages.public.home', $this->data);
@@ -27,7 +27,7 @@ class PageController extends Controller
     public function privacy()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | Privacy';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes | Privacy';
         $this->data['lang'] = 'en';
 
         return view('pages.public.privacy', $this->data);
@@ -36,7 +36,7 @@ class PageController extends Controller
     public function terms()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | Terms Of Use';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes | Terms Of Use';
         $this->data['lang'] = 'en';
 
         return view('pages.public.term', $this->data);
@@ -45,7 +45,7 @@ class PageController extends Controller
     public function contact()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | Contact Us';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes | Contact Us';
         $this->data['lang'] = 'en';
 
         return view('pages.public.contact', $this->data);
@@ -54,7 +54,7 @@ class PageController extends Controller
     public function ads()
     {
         app()->setLocale('en');
-        $this->data['title'] = 'Mooti App | ads.text';
+        $this->data['title'] = 'Mooti App - Motivation & Quotes | ads.text';
         $this->data['lang'] = 'en';
 
         return view('pages.public.ads', $this->data);

@@ -41,7 +41,7 @@
 
     <style>
         .carousel-indicators {
-            top: 250px;
+            top: 270px;
         }
 
         .carousel-indicators li {
