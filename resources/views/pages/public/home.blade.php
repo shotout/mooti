@@ -41,7 +41,8 @@
 
     <style>
         .carousel-indicators {
-            top: 270px;
+            margin-top: -35px;
+            bottom: unset;
         }
 
         .carousel-indicators li {
@@ -62,6 +63,10 @@
         .carousel-indicators .active {
             background-color: #00C2CB;
             color: #fff;
+        }
+
+        .carousel-inner {
+            overflow: unset;
         }
     </style>
 @endpush
@@ -197,13 +202,13 @@
                 <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
             </div>
         </div>
-        <div class="row mt-2">
+        <div class="row mt-2 pb-3">
             <div class="col-12">
                 <h3 class="c-title text-center">Mooti <br> motivation & quotes</h3>
             </div>
         </div>
 
-        <div class="row pt-4 c-bg-skyblue">
+        <div class="row c-bg-skyblue" style="margin-top: 250px; padding-top: 50px;">
             <div class="col-12">
                 <div id="mooti-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -213,8 +218,10 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div style="margin-bottom: 90px;">
-                                <img src="{{url('/assets/images/mooti1.png')}}" class="d-block c-width" alt="Mooti App Image">
+                            <div class="mb-3" style="position: relative;">
+                                <div style="position: absolute; z-index: 9999; bottom: 70px;">
+                                    <img src="{{url('/assets/images/mooti1.png')}}" class="d-block c-width" alt="Mooti App Image">
+                                </div>
                             </div>
                             <div>
                                 <div class="text-center">
@@ -229,8 +236,10 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div style="margin-bottom: 70px;">
-                                <img src="{{url('/assets/images/mooti2.png')}}" class="d-block c-width" alt="Mooti App Image">
+                            <div class="mb-3" style="position: relative;">
+                                <div style="position: absolute; z-index: 9999; bottom: 70px;">
+                                    <img src="{{url('/assets/images/mooti2.png')}}" class="d-block c-width" alt="Mooti App Image">
+                                </div>
                             </div>
                             <div>
                                 <div class="text-center">
@@ -248,8 +257,10 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div style="margin-bottom: 100px;">
-                                <img src="{{url('/assets/images/mooti3.png')}}" class="d-block c-width" alt="Mooti App Image">
+                            <div class="mb-3" style="position: relative;">
+                                <div style="position: absolute; z-index: 9999; bottom: 70px;">
+                                    <img src="{{url('/assets/images/mooti3.png')}}" class="d-block c-width" alt="Mooti App Image">
+                                </div>
                             </div>
                             <div>
                                 <div class="text-center">
