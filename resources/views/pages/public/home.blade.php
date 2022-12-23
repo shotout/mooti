@@ -98,7 +98,7 @@
     <div class="container c-padding mb-4">
         <div class="row">
             <div class="col-lg-4 mb-4 text-center">
-                <img src="{{url('/assets/images/mooti1.png')}}" alt="Mooti App Image">
+                <img src="{{url('/assets/images/mooti1.png')}}" alt="Mooti App Image" class="w-100">
                 <div class="c-dmobile">
                     <div class="f-inter mb-1">Download now :</div>
                     <div>
@@ -113,8 +113,8 @@
             </div>
             <div class="col-lg-8">
                 <div class="c-text-center">
-                    <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image">
-                    <h4 class="c-subtitle mt-1">
+                    <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image">
+                    <h4 class="c-subtitle mt-2 mb-3">
                         A daily dose of positivity - The Happiness App with daily motivational quotes & affirmations!
                     </h4>
                 </div>
@@ -130,8 +130,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="c-text-center">
-                        <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image">
-                        <h4 class="c-subtitle mt-1">
+                        <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image">
+                        <h4 class="c-subtitle mt-2 mb-3">
                             MOOTI - Self Care Made Easy - A daily dose of positivity!
                         </h4>
                     </div>
@@ -143,7 +143,7 @@
                     </p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <img src="{{url('/assets/images/mooti2.png')}}" alt="Mooti App Image">
+                    <img src="{{url('/assets/images/mooti2.png')}}" alt="Mooti App Image" class="w-100">
                     <div class="f-inter mb-1">Download now :</div>
                     <div>
                         <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
@@ -161,7 +161,7 @@
     <div class="container c-padding mb-4">
         <div class="row">
             <div class="col-lg-4 text-center mb-4">
-                <img src="{{url('/assets/images/mooti3.png')}}" alt="Mooti App Image">
+                <img src="{{url('/assets/images/mooti3.png')}}" alt="Mooti App Image" class="w-100">
                 <div class="f-inter mb-1">Download now :</div>
                 <div>
                     <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
@@ -174,8 +174,8 @@
             </div>
             <div class="col-lg-8">
                 <div class="c-text-center">
-                    <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image">
-                    <h4 class="c-subtitle mt-1">
+                    <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image">
+                    <h4 class="c-subtitle mt-2 mb-3">
                         Optimize Your Life -  Upgrade your mindset!
                     </h4>
                 </div>
@@ -218,8 +218,8 @@
                             </div>
                             <div>
                                 <div class="text-center">
-                                    <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image" style="width:40%;">
-                                    <h5 class="c-subtitle mt-2">
+                                    <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image" style="width:40%;">
+                                    <h5 class="c-subtitle mt-2 mb-3">
                                         A daily dose of positivity - The Happiness App with daily motivational quotes & affirmations!
                                     </h5>
                                 </div>
@@ -234,8 +234,8 @@
                             </div>
                             <div>
                                 <div class="text-center">
-                                    <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image" style="width:40%;">
-                                    <h5 class="c-subtitle mt-2">
+                                    <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image" style="width:40%;">
+                                    <h5 class="c-subtitle mt-2 mb-3">
                                         MOOTI - Self Care Made Easy - A daily dose of positivity!
                                     </h5>
                                 </div>
@@ -253,8 +253,8 @@
                             </div>
                             <div>
                                 <div class="text-center">
-                                    <img src="{{url('/assets/images/five_star.png')}}" alt="five Star Image" style="width:40%;">
-                                    <h5 class="c-subtitle mt-2">
+                                    <img src="{{url('/assets/images/five_star.svg')}}" alt="five Star Image" style="width:40%;">
+                                    <h5 class="c-subtitle mt-2 mb-3">
                                         Optimize Your Life -  Upgrade your mindset!
                                     </h5>
                                 </div>
@@ -262,7 +262,7 @@
                                     In addition, affirmations open you up to possibility. Too often, we get stuck in a mindset of impossibility, but affirmations can help turn this around. When you positively affirm what is possible, a whole world of opportunity can open up to you.
                                 </p>
                                 <p class="c-content">
-                                    In short, using affirmations can help you build resilience, overcome negative thought patterns, and achieve your goals. By practicing daily affirmations, you can empower yourself and create a positive mindset that will help you succeed in all areas of your life
+                                    In short, using affirmations can help you build resilience, overcome negative thought patterns, and achieve your goals. By practicing daily affirmations, you can empower yourself and create a positive mindset that will help you succeed in all areas of your life.
                                 </p>
                             </div>
                         </div>
