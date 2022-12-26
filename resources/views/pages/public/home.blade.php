@@ -80,11 +80,11 @@
             </div>
             <div class="col-md-8 d-flex align-items-center justify-content-end">
                 <div class="c-hmobile c-border p-2">
-                    <span class="f-inter">Available on : </span>
-                    <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
+                    <span class="f-inter">Available on: </span>
+                    <a style="text-decoration: none;" href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                         <img src="{{url('/assets/images/apple.svg')}}" class="ml-2" alt="App Store Logo">
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
+                    <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
                         <img src="{{url('/assets/images/google.svg')}}" class="ml-2" alt="Play Store Logo">
                     </a>
                 </div>
@@ -105,12 +105,12 @@
             <div class="col-lg-4 mb-4 text-center">
                 <img src="{{url('/assets/images/mooti1.png')}}" alt="Mooti App Image" class="w-100">
                 <div class="c-dmobile">
-                    <div class="f-inter mb-1">Download now :</div>
+                    <div class="f-inter mb-1">Download now:</div>
                     <div>
-                        <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
+                        <a style="text-decoration: none;" href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                             <img src="{{url('/assets/images/apple.svg')}}" alt="App Store Logo">
                         </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
+                        <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
                             <img src="{{url('/assets/images/google.svg')}}" class="ml-2" alt="Play Store Logo">
                         </a>
                     </div>
@@ -149,12 +149,12 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <img src="{{url('/assets/images/mooti2.png')}}" alt="Mooti App Image" class="w-100">
-                    <div class="f-inter mb-1">Download now :</div>
+                    <div class="f-inter mb-1">Download now:</div>
                     <div>
-                        <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
+                        <a style="text-decoration: none;" href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                             <img src="{{url('/assets/images/apple.svg')}}" alt="App Store Logo">
                         </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
+                        <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
                             <img src="{{url('/assets/images/google.svg')}}" class="ml-2" alt="Play Store Logo">
                         </a>
                     </div>
@@ -167,12 +167,12 @@
         <div class="row">
             <div class="col-lg-4 text-center mb-4">
                 <img src="{{url('/assets/images/mooti3.png')}}" alt="Mooti App Image" class="w-100">
-                <div class="f-inter mb-1">Download now :</div>
+                <div class="f-inter mb-1">Download now:</div>
                 <div>
-                    <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
+                    <a style="text-decoration: none;" href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                         <img src="{{url('/assets/images/apple.svg')}}" alt="App Store Logo">
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
+                    <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
                         <img src="{{url('/assets/images/google.svg')}}" class="ml-2" alt="Play Store Logo">
                     </a>
                 </div>
@@ -292,15 +292,15 @@
 
         <div class="row pb-4 c-bg-skyblue">
             <div class="col-12 text-center mb-1">
-                <div class="f-inter">Download now :</div>
+                <div class="f-inter">Download now:</div>
             </div>
             <div class="col-12 text-center mb-3">
-                <a href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
+                <a style="text-decoration: none;" href="https://apps.apple.com/us/app/mooti/id6443447216" target="_blank" rel="noopener noreferrer">
                     <img style="width: 50%;" src="{{url('/assets/images/apple.svg')}}" alt="App Store Logo">
                 </a>
             </div>
             <div class="col-12 text-center mb-3">
-                <a href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
+                <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=com.mooti" target="_blank" rel="noopener noreferrer">
                     <img style="width: 50%;" src="{{url('/assets/images/google.svg')}}" alt="Play Store Logo">
                 </a>
             </div>
