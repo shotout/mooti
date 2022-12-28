@@ -9,8 +9,8 @@
                 <a href="https://instagram.com/mooti.app" target="_blank" style="text-decoration: none;" >
                     <img class="mr-2" src="{{url('/assets/images/instagram.png')}}" alt="instagram logo">
                 </a>
-
-                @mobile
+                
+                @if (Browser::isMobile())
                     @if (Browser::isAndroid())
                         <a href="intent://page/104850975778626?referrer=app_link#Intent;package=com.facebook.katana;scheme=fb;end" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                             <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
@@ -21,9 +21,9 @@
                             <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
                         </a>
                     @endif
-                @endmobile
+                @endif
 
-                @tablet
+                @if (Browser::isTablet())
                     @if (Browser::isAndroid())
                         <a href="intent://page/104850975778626?referrer=app_link#Intent;package=com.facebook.katana;scheme=fb;end" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                             <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
@@ -34,13 +34,13 @@
                             <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
                         </a>
                     @endif
-                @endtablet
+                @endif
 
-                @desktop
+                @if (Browser::isDesktop())
                     <a href="https://facebook.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                         <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
                     </a>
-                @enddesktop
+                @endif
 
                 <a href="https://twitter.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                     <img class="mr-2" src="{{url('/assets/images/twitter.png')}}" alt="twitter logo">
