@@ -9,9 +9,39 @@
                 <a href="https://instagram.com/mooti.app" target="_blank" style="text-decoration: none;" >
                     <img class="mr-2" src="{{url('/assets/images/instagram.png')}}" alt="instagram logo">
                 </a>
-                <a href="https://facebook.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                    <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
-                </a>
+
+                @mobile
+                    @if (Browser::isAndroid())
+                        <a href="intent://page/104850975778626?referrer=app_link#Intent;package=com.facebook.katana;scheme=fb;end" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                        </a>
+                    @endif
+                    @if (Browser::isMac())
+                        <a href="fb://page/?id=104850975778626" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                        </a>
+                    @endif
+                @endmobile
+
+                @tablet
+                    @if (Browser::isAndroid())
+                        <a href="intent://page/104850975778626?referrer=app_link#Intent;package=com.facebook.katana;scheme=fb;end" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                        </a>
+                    @endif
+                    @if (Browser::isMac())
+                        <a href="fb://page/?id=104850975778626" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                        </a>
+                    @endif
+                @endtablet
+
+                @desktop
+                    <a href="https://facebook.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                        <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                    </a>
+                @enddesktop
+
                 <a href="https://twitter.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                     <img class="mr-2" src="{{url('/assets/images/twitter.png')}}" alt="twitter logo">
                 </a>
