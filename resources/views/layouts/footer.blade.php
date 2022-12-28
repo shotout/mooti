@@ -36,6 +36,12 @@
                     @endif
                 @endif
 
+                @if (Browser::deviceModel() == 'iPad')
+                    <a href="fb://page/?id=104850975778626" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                        <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
+                    </a>
+                @endif
+
                 @if (Browser::isDesktop())
                     <a href="https://facebook.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                         <img class="mr-2" src="{{url('/assets/images/facebook.png')}}" alt="facebook logo">
