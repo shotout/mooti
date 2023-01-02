@@ -51,15 +51,11 @@
                 <a href="https://twitter.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                     <img class="mr-2" src="{{url('/assets/images/twitter.png')}}" alt="twitter logo">
                 </a>
-                <a class="c-hmobile" href="https://mooti.app" target="_blank" style="color: #fff; text-decoration: none;" rel="noopener noreferrer">
-                | <span class="ml-2 f-inter">©2022 Mooti</span>
-                </a>
+                <span class="ml-2 f-inter c-hmobile">| ©2022 Mooti</span>
             </div>
 
             <div class="col-md-6 text-center c-dmobile mt-1">
-                <a href="https://mooti.app" target="_blank" style="color: #fff; text-decoration: none;" rel="noopener noreferrer">
-                    <span class="mr-3 f-inter">©2022 Mooti</span>
-                </a>
+                <span class="mr-3 f-inter">©2022 Mooti</span>
             </div>
         </div>
     </div>

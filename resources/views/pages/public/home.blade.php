@@ -76,7 +76,9 @@
     <div class="container-fluid">
         <div class="row py-3">
             <div class="col-md-4 c-text-center">
-                <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
+                <a href="https://mooti.app" style="text-decoration: none;" rel="noopener noreferrer">
+                    <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
+                </a>
             </div>
             <div class="col-md-8 d-flex align-items-center justify-content-end">
                 <div class="c-hmobile c-border p-2">
@@ -199,7 +201,9 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-12 c-text-center">
-                <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
+                <a href="https://mooti.app" style="text-decoration: none;" rel="noopener noreferrer">
+                    <img src="{{url('/assets/images/logo.png')}}" alt="Mooti App Logo" width="70">
+                </a>
             </div>
         </div>
         <div class="row mt-2 pb-3">
