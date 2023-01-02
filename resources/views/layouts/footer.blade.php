@@ -51,7 +51,8 @@
                 <a href="https://twitter.com/MootiApp" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
                     <img class="mr-2" src="{{url('/assets/images/twitter.png')}}" alt="twitter logo">
                 </a>
-                <span class="ml-2 f-inter c-hmobile">| ©2022 Mooti</span>
+                <span class="f-inter c-hmobile">|</span>
+                <span class="ml-2 f-inter c-hmobile">©2022 Mooti</span>
             </div>
 
             <div class="col-md-6 text-center c-dmobile mt-1">
